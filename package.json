@@ -1,0 +1,26 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node ./utils/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.18.7",
+    "@babel/parser": "^7.18.8",
+    "@babel/traverse": "^7.18.8"
+  }
+}
